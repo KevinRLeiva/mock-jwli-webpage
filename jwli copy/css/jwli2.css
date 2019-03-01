@@ -1,0 +1,621 @@
+ /* General Style */
+* {
+  box-sizing: border-box;
+}
+.clearfix:after {
+  content: ".";
+  display: block;
+  clear: both;
+  visibility: hidden;
+  line-height: 0;
+  height: 0;
+}
+section > h2 + section{
+  width: 45%;
+  float: left;
+  margin-left: 348px;
+}
+ /* Header and Footer Style */
+header, footer{
+  width: 100%;
+  float: left;
+  clear: left;
+  padding-bottom: 5px;
+}
+footer{
+  background: gray;
+}
+footer > section{
+  width: 100%;
+  float: left;
+  background: rgb(121,159,211)
+}
+.container{
+  width: 100%;
+  float: left;
+  padding-bottom: 25px;
+}
+#colorBack{
+  background: rgb(237,240,244);
+}
+#photoSide{
+  width: 48%;
+  float: right;
+  margin-top: -287px;
+  padding-top: 17px;
+}
+#fishWhamen{
+  border: 2px solid gray;
+  width: 61%;
+  float: left;
+  margin-top: -7px;
+  margin-left: 298px;
+}
+.splitSec{
+  width: 50%;
+  float: left;
+}
+/* Main Stlye */
+li{
+  list-style: none;
+}
+li img{
+  display: none;
+}
+header nav ul button{
+  background: black;
+  color: white;
+  padding-right: 47px;
+  padding-left: 15px;
+  padding-bottom: 3px;
+  padding-top: 3px;
+}
+header nav ul li{
+  float: left;
+  margin-left: 122px;
+
+}
+header + section{
+  background: rgb(237,240,244);
+  background-image: url(../img/womenuser.png);
+  background-position: right;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+section h1 img{
+  float: left;
+  height: 90px;
+  margin-left: 285px;
+}
+section > h2{
+  width: 40%;
+  float: left;
+  margin-left: 381px;
+}
+section h1 + h2{
+  float: left;
+  margin-top: 100px;
+  margin-left: -304px;
+}
+h1 + h2 + h4{
+  width: 26%;
+  float: left;
+  margin-top: 134px;
+  margin-left: -632px;
+}
+section h4 + p{
+  float: left;
+  margin-top: 204px;
+  margin-left: -635px;
+}
+p + form > input{
+  width: 20%;
+  height: 24px;
+  margin-top: 228px;
+  margin-left: -745px;
+}
+button{
+  width: 5%;
+  height: 23px;
+  margin-left: 13px;
+  background: lightblue;
+  color: white;
+}
+#textAlign{
+  width: 40%;
+  float: left;
+  margin-left: 381px;
+  text-align: center;
+}
+strong{
+  border-top: 2px solid pink;
+}
+section > p{
+  width: 47%;
+  float: left;
+}
+section > p + p{
+  width: 50%;
+  float: left;
+  margin-left: 21px;
+}
+#textAlign + section + p{
+  float: left;
+  text-align: center;
+  margin-left: 344px;
+}
+section > section > h3{
+  float: left;
+  margin-left: 30px;
+}
+section > h3 + p{
+  float: left;
+  margin-top: 59px;
+  margin-left: -101px;
+}
+#photoSide > img{
+  height: 193px;
+  float: left;
+  margin-top: 2px;
+  margin-left: 232px;
+
+}
+#photoSide > span{
+  float: left;
+  margin-top: 201px;
+  margin-left: -168px;
+  color: gray;
+}
+.container > h3{
+  float: left;
+  margin-left: 671px;
+}
+section > img{
+  float: left;
+  height: 208px;
+  margin-left: 38px;
+  margin-top: 20px;
+}
+img + h3 + p{
+  float: left;
+  margin-left: -226px;
+  width: 67%;
+}
+.splitSec > h3{
+  float: left;
+}
+.splitSec > span{
+  float: left;
+  width: 11%;
+  margin-top: 38px;
+  margin-left: -91px;
+  font-size: 6px;
+  border-top: 1px solid grey;
+}
+.splitSec > p{
+  float: left;
+  margin-left: -254px;
+}
+.splitSec > span + p{
+  margin-left: -92px;
+  margin-top: 53px;
+}
+footer > section h4{
+  float: left;
+  margin-left: 298px;
+  color: white;
+}
+footer > section form{
+  float: left;
+  width: 31%;
+  margin-top: 18px;
+  margin-left: 564px;
+}
+footer > section input{
+  width: 76%;
+  float: left;
+}
+footer > section button{
+  width: 21%;
+  margin-left: 14px;
+  float: left;
+  height: 19px;
+}
+footer > span{
+  float: left;
+  color: white;
+  margin-left: 111px;
+}
+footer > span + nav ul li{
+  margin-right: 96px;
+  color: white;
+  float: left;
+  margin-left: 182px;
+}
+.navBar{
+  width: 20%;
+  float: left;
+  margin-top: 24px;
+  margin-left: 53px;
+  margin-right: -76px;
+  color: white;
+}
+.contact{
+  float: left;
+  margin-top: 33px;
+  margin-left: 91px;
+}
+/*display for mobile */
+@media only screen and (max-width: 480px) {
+  #fishWhamen{
+    border: 2px solid gray;
+    width: 98%;
+    float: left;
+    margin-top: -7px;
+    margin-left: 3px;
+  }
+  header ul{
+    display: none;
+  }
+  header img{
+    height: 10px;
+    width: auto;
+    float: left;
+  }
+  header + section{
+    background: rgb(237,240,244);
+  }
+  section h1 img{
+    float: left;
+    height: 90px;
+    margin-left: 94px;
+  }
+  section h1 + h2{
+    width: 53%;
+    float: left;
+    margin-top: 102px;
+    margin-left: -208px;
+  }
+  h1 + h2 + h4{
+    width: 73%;
+    float: left;
+    margin-top: 177px;
+    margin-left: -223px;
+  }
+  section h4 + p{
+    float: left;
+    margin-top: 245px;
+    width: 75%;
+    margin-left: -282px;
+  }
+  p + form > input{
+    width: 37%;
+    height: 24px;
+    margin-top: 291px;
+    margin-left: -332px;
+  }
+  button{
+    width: 31%;
+    height: 23px;
+    margin-left: 13px;
+    background: lightblue;
+    color: white;
+  }
+  #textAlign{
+    width: 97%;
+    float: left;
+    margin-left: 0px;
+    text-align: center;
+  }
+  strong{
+    border-top: 2px solid pink;
+  }
+  section > p{
+    width: 102%;
+    float: left;
+    margin-left: -345px;
+  }
+  section > p + p{
+    width: 95%;
+    float: left;
+    margin-left: -146px;
+  }
+  #textAlign + section + p{
+    text-align: center;
+    float: left;
+    margin-left: -4px;
+    width: 100%;
+  }
+  section > section > h3{
+    float: left;
+    margin-left: 67px;
+    margin-top: 2px;
+  }
+  section > h3 + p{
+    float: left;
+    margin-top: -10px;
+    margin-left: 6px;
+    width: 98%;
+  }
+  section > h3 + p + p{
+    float: left;
+    margin-left: 7px;
+  }
+  section > h3 + p + p + p{
+    float: left;
+    margin-left: 7px;
+  }
+  #photoSide{
+    display: none;
+  }
+  .container > h3{
+    float: left;
+    margin-left: 121px;
+  }
+  section > img{
+    float: left;
+    height: 208px;
+    margin-left: 75px;
+    margin-top: 20px;
+  }
+  img + h3 + p{
+    float: left;
+    margin-top: 28px;
+    margin-left: -285px;
+    width: 98%;
+  }
+  .splitSec > h3{
+    float: left;
+    margin-left: 16px;
+  }
+  .splitSec > span{
+    float: left;
+    width: 47%;
+    margin-top: 22px;
+    margin-left: -91px;
+    font-size: 6px;
+    border-top: 1px solid grey;
+  }
+  .splitSec > p{
+    float: left;
+    margin-left: 0px;
+    margin-top: -11px;
+  }
+  .splitSec > span + p{
+    margin-left: 4px;
+    margin-top: -4px;
+  }
+  footer > section h4{
+    float: left;
+    margin-left: 3px;
+    color: white;
+  }
+  footer > section form{
+    float: left;
+    width: 44%;
+    margin-top: 18px;
+    margin-left: 13px;
+  }
+  footer > section input{
+    width: 57%;
+    float: left;
+  }
+  footer > section button{
+    width: 39%;
+    margin-left: 6px;
+    float: left;
+    height: 19px;
+  }
+  footer > span{
+    float: left;
+    color: white;
+    margin-left: 14px;
+  }
+  footer > span + nav ul li{
+    margin-right: 5px;
+    color: white;
+    float: left;
+    margin-left: 32px;
+  }
+  .navBar{
+  display: none;
+  }
+  .contact{
+    float: left;
+    margin-top: 11px;
+    margin-left: 45px;
+  }
+}
+/*display for tablet */
+@media (min-width: 481px) and (max-width: 768px) {
+  header img{
+    display: none;
+  }
+  #fishWhamen{
+    border: 2px solid gray;
+    width: 98%;
+    float: left;
+    margin-top: -7px;
+    margin-left: 3px;
+  }
+  header ul{
+    display: none;
+  }
+  header img{
+    height: 10px;
+    width: auto;
+    float: left;
+  }
+  section h1 img{
+    float: left;
+    height: 90px;
+    margin-left: 63px;
+  }
+  section h1 + h2{
+    width: 55%;
+    float: left;
+    margin-top: 102px;
+    margin-left: -200px;
+  }
+  h1 + h2 + h4{
+    width: 73%;
+    float: left;
+    margin-top: -3px;
+    margin-left: 55px;
+  }
+  section h4 + p{
+    float: left;
+    margin-top: 12px;
+    margin-left: 53px;
+  }
+  p + form > input{
+    width: 37%;
+    height: 24px;
+    margin-top: 242px;
+    margin-left: -418px;
+  }
+  button{
+    width: 31%;
+    height: 23px;
+    margin-left: 13px;
+    background: lightblue;
+    color: white;
+  }
+  #textAlign{
+    width: 97%;
+    float: left;
+    margin-left: 0px;
+    text-align: center;
+  }
+  section > p{
+    width: 91%;
+    float: left;
+    margin-left: -308px;
+  }
+  section > p + p{
+    width: 85%;
+    float: left;
+    margin-left: 36px;
+  }
+  #textAlign + section + p{
+    text-align: center;
+    float: left;
+    margin-left: -4px;
+    width: 100%;
+  }
+  section > section > h3{
+    float: left;
+    margin-left: 12px;
+    margin-top: 9px;
+  }
+  section > h3 + p{
+    float: left;
+    margin-top: 42px;
+    margin-left: -104px;
+    width: 96%;
+  }
+  section > h3 + p + p{
+    float: left;
+    margin-left: 7px;
+    width: 99%;
+  }
+  section > h3 + p + p + p{
+    float: left;
+    margin-left: 7px;
+    width: 98%;
+  }
+  #photoSide > img{
+    display: none;
+  }
+  #photoSide > span{
+    display: none;
+  }
+  .container > h3{
+    float: left;
+    margin-left: 301px;
+  }
+  section > img{
+    float: left;
+    height: 208px;
+    margin-left: 4px;
+    margin-top: 9px;
+  }
+  img + h3 + p{
+    float: left;
+    margin-top: -10px;
+    margin-left: 7px;
+    width: 69%;
+  }
+  .splitSec > h3{
+    float: left;
+    margin-left: S16px;
+  }
+  .splitSec > span{
+    float: left;
+    width: 25%;
+    margin-top: 26px;
+    margin-left: -91px;
+    font-size: 7px;
+    border-top: 1px solid grey;
+  }
+  .splitSec > p{
+    float: left;
+    margin-left: 4px;
+    margin-top: 0px;
+  }
+  .splitSec > span + p{
+    margin-left: 4px;
+    margin-top: -4px;
+  }
+  footer > section h4{
+    float: left;
+    margin-left: 19px;
+    color: white;
+  }
+  footer > section form{
+    float: left;
+    width: 44%;
+    margin-top: 18px;
+    margin-left: 185px;
+  }
+  footer > section input{
+    width: 57%;
+    float: left;
+  }
+  footer > section button{
+    width: 39%;
+    margin-left: 6px;
+    float: left;
+    height: 19px;
+  }
+  footer > span{
+    float: left;
+    color: white;
+    margin-left: 4px;
+  }
+  footer > span + nav ul li{
+    margin-right: 5px;
+    color: white;
+    float: left;
+    margin-left: 50px;
+  }
+  .navBar{
+    width: 20%;
+    float: left;
+    margin-top: 24px;
+    margin-left: -30px;
+    margin-right: 20px;
+    color: white;
+  }
+  .contact{
+    float: left;
+    margin-top: 33px;
+    margin-left: 90px;
+  }
+}
+/* display for webpage */
+@media (min-width: 769px) and (max-width: 1680px) {
+  header img{
+    display: none;
+  }
+}
